@@ -1,7 +1,9 @@
-package br.com.SistemaLogin.Login;
+package DAO;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
+import br.com.SistemaLogin.Login.Funcionario;
 
 import java.sql.PreparedStatement;
 

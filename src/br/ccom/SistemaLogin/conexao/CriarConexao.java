@@ -11,8 +11,7 @@ public class CriarConexao {
 		try {
 				Class.forName("com.mysql.jdbc.Driver"); 
 				System.out.println("Conectado");
-				
-				//sofrerá mudanças quando o projeto for hospedado na web
+			
 				return DriverManager.getConnection("jdbc:mysql://databasetest.ctaato9ab42d.us-east-1.rds.amazonaws.com", "root", "natan5613");
 			
 		}catch(SQLException e) {  
